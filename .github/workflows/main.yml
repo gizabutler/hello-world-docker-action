@@ -11,7 +11,7 @@ on:
 jobs:
   test_hello_world:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Test Hello World
     steps:
     - name: Hello world action step
       id: hello
